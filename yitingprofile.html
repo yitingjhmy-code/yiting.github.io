@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="廖怡婷 Yi-Ting Liao - 國立臺北大學會計學系個人履歷網站">
+    <meta name="author" content="Yi-Ting Liao">
+    <title>廖怡婷 Yi-Ting Liao | Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@300;400;500;600;700&family=Cormorant+Garamond:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <span class="logo-zh">廖怡婷</span>
+                <span class="logo-en">Yi-Ting Liao</span>
+            </a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link" data-zh="首頁" data-en="Home">首頁</a></li>
+                <li><a href="#about" class="nav-link" data-zh="關於我" data-en="About">關於我</a></li>
+                <li><a href="#education" class="nav-link" data-zh="學歷" data-en="Education">學歷</a></li>
+                <li><a href="#experience" class="nav-link" data-zh="經歷" data-en="Experience">經歷</a></li>
+                <li><a href="#awards" class="nav-link" data-zh="競賽與表演" data-en="Awards">競賽與表演</a></li>
+                <li><a href="#skills" class="nav-link" data-zh="證照技能" data-en="Skills">證照技能</a></li>
+                <li><a href="#contact" class="nav-link" data-zh="聯絡" data-en="Contact">聯絡</a></li>
+                <li>
+                    <button id="lang-toggle" class="lang-toggle">
+                        <span class="lang-text">EN</span>
+                    </button>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg-decoration">
+            <div class="circle circle-1"></div>
+            <div class="circle circle-2"></div>
+            <div class="circle circle-3"></div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <img src="assets/images/profile.jpg" alt="廖怡婷" onerror="this.src='https://via.placeholder.com/400x400/9ab0bf/ffffff?text=Yi-Ting'">
+                </div>
+            </div>
+            <div class="hero-content">
+                <p class="hero-greeting" data-zh="Welcome" data-en="Welcome">Welcome</p>
+                <h1 class="hero-name">
+                    <span class="name-zh">廖怡婷</span>
+                    <span class="name-en">Yi-Ting Liao</span>
+                </h1>
+                <p class="hero-title" data-zh="國立臺北大學 會計學系" data-en="Department of Accountancy, National Taipei University">國立臺北大學 會計學系</p>
+                <p class="hero-description" data-zh="目前就讀於國立臺北大學會計學系。高中畢業於明道中學人文實驗班，對於文本閱讀、議題探討與活動策劃有相關經驗。" data-en="A current student in the Department of Accountancy at National Taipei University. Graduated from the Humanities Experimental Class at Mingdao High School, with experience in text reading, issue exploration, and event organizing.">
+                    目前就讀於國立臺北大學會計學系。高中畢業於明道中學人文實驗班，對於文本閱讀、議題探討與活動策劃有相關經驗。
+                </p>
+                <div class="hero-tags">
+                    <span class="tag" data-zh="#會計學系" data-en="#Accounting">#會計學系</span>
+                    <span class="tag" data-zh="#人文實驗班" data-en="#Humanities">#人文實驗班</span>
+                    <span class="tag" data-zh="#活動策劃" data-en="#Event Planning">#活動策劃</span>
+                    <span class="tag" data-zh="#策展" data-en="#Curation">#策展</span>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#about" class="btn btn-primary" data-zh="了解更多" data-en="Learn More">了解更多</a>
+                    <a href="#contact" class="btn btn-secondary" data-zh="聯絡我" data-en="Contact Me">聯絡我</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-subtitle" data-zh="關於我" data-en="About Me">關於我</p>
+                <h2 class="section-title" data-zh="關於我" data-en="About Me">關於我</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="card-icon"><i class="fas fa-book-open"></i></div>
+                    <h3 data-zh="學習背景" data-en="Academic Background">學習背景</h3>
+                    <p data-zh="高中就讀於明道中學人文實驗班，課程包含文本閱讀、議題探究與專題研究。" data-en="Studied at the Humanities Experimental Class at Mingdao High School, with courses including text reading, issue exploration, and research projects.">
+                        高中就讀於明道中學人文實驗班，課程包含文本閱讀、議題探究與專題研究。
+                    </p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon"><i class="fas fa-calculator"></i></div>
+                    <h3 data-zh="目前就讀" data-en="Current Studies">目前就讀</h3>
+                    <p data-zh="2024 年起就讀於國立臺北大學會計學系，主修會計、財務與商業相關課程。" data-en="Since 2024, studying at the Department of Accountancy, National Taipei University. Major courses include accounting, finance, and business-related subjects.">
+                        2024 年起就讀於國立臺北大學會計學系，主修會計、財務與商業相關課程。
+                    </p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon"><i class="fas fa-users"></i></div>
+                    <h3 data-zh="活動參與" data-en="Activities">活動參與</h3>
+                    <p data-zh="曾參與新世紀青少年高峰論壇、原住民轉型正義策展、營隊隊輔等校內外活動。" data-en="Participated in the New Century Youth Summit Forum, Indigenous Transitional Justice Exhibition, and camp counselor roles.">
+                        曾參與新世紀青少年高峰論壇、原住民轉型正義策展、營隊隊輔等校內外活動。
+                    </p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon"><i class="fas fa-globe"></i></div>
+                    <h3 data-zh="其他經歷" data-en="Other Experiences">其他經歷</h3>
+                    <p data-zh="參與 APYLC 亞太青年領袖峰會、AIESEC 北大分會等活動，並擔任社團美宣相關職務。" data-en="Participated in APYLC and AIESEC NTPU, and served in design-related roles in student clubs.">
+                        參與 APYLC 亞太青年領袖峰會、AIESEC 北大分會等活動，並擔任社團美宣相關職務。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section education-section">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-subtitle" data-zh="學歷" data-en="Education">學歷</p>
+                <h2 class="section-title" data-zh="教育背景" data-en="Educational Background">教育背景</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2024/09 — 2028/06</div>
+                    <div class="timeline-content">
+                        <div class="timeline-card">
+                            <span class="timeline-icon"><i class="fas fa-graduation-cap"></i></span>
+                            <h3 data-zh="國立臺北大學" data-en="National Taipei University">國立臺北大學</h3>
+                            <p class="timeline-subtitle" data-zh="會計學系" data-en="Department of Accountancy">會計學系</p>
+                            <p data-zh="會計學系，主修會計、財務與商業相關課程。" data-en="Department of Accountancy. Major courses include accounting, finance, and business-related subjects.">
+                                會計學系，主修會計、財務與商業相關課程。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2021/09 — 2024/06</div>
+                    <div class="timeline-content">
+                        <div class="timeline-card">
+                            <span class="timeline-icon"><i class="fas fa-school"></i></span>
+                            <h3 data-zh="明道中學 高中部" data-en="Mingdao High School">明道中學 高中部</h3>
+                            <p class="timeline-subtitle" data-zh="人文實驗班" data-en="Humanities Experimental Class">人文實驗班</p>
+                            <p data-zh="人文實驗班，課程包含文本閱讀、議題探究與專題研究。" data-en="Humanities Experimental Class. Curriculum included text reading, issue exploration, and research projects.">
+                                人文實驗班，課程包含文本閱讀、議題探究與專題研究。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2018/09 — 2021/06</div>
+                    <div class="timeline-content">
+                        <div class="timeline-card">
+                            <span class="timeline-icon"><i class="fas fa-book"></i></span>
+                            <h3 data-zh="明道中學 國中部" data-en="Mingdao Junior High School">明道中學 國中部</h3>
+                            <p class="timeline-subtitle" data-zh="多元素養班" data-en="Multi-Literacy Class">多元素養班</p>
+                            <p data-zh="多元素養班。" data-en="Multi-Literacy Class.">
+                                多元素養班。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section experience-section">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-subtitle" data-zh="活動與社團經歷" data-en="Activities & Clubs">活動與社團經歷</p>
+                <h2 class="section-title" data-zh="活動與社團經歷" data-en="Activities & Clubs">活動與社團經歷</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="experience-timeline">
+                <div class="exp-item">
+                    <div class="exp-marker"></div>
+                    <div class="exp-card">
+                        <div class="exp-header">
+                            <h3 data-zh="國立臺北大學中友會 — 美宣" data-en="NTPU Central Taiwan Student Association — Design">國立臺北大學中友會 — 美宣</h3>
+                            <span class="exp-date">2025 — 2026</span>
+                        </div>
+                        <div class="exp-tags">
+                            <span class="tag-sm" data-zh="#貼文製作" data-en="#Post Design">#貼文製作</span>
+                            <span class="tag-sm" data-zh="#活動辦理" data-en="#Event Organization">#活動辦理</span>
+                            <span class="tag-sm" data-zh="#社交能力" data-en="#Social Skills">#社交能力</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="exp-item">
+                    <div class="exp-marker"></div>
+                    <div class="exp-card">
+                        <div class="exp-header">
+                            <h3 data-zh="AIESEC 北大分會 — 社員" data-en="AIESEC NTPU — Member">AIESEC 北大分會 — 社員</h3>
+                            <span class="exp-date">2024</span>
+                        </div>
+                        <div class="exp-tags">
+                            <span class="tag-sm" data-zh="#認識自己" data-en="#Self-Discovery">#認識自己</span>
+                            <span class="tag-sm" data-zh="#團隊合作與溝通" data-en="#Teamwork">#團隊合作與溝通</span>
+                            <span class="tag-sm" data-zh="#英文能力" data-en="#English">#英文能力</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="exp-item">
+                    <div class="exp-marker"></div>
+                    <div class="exp-card">
+                        <div class="exp-header">
+                            <h3 data-zh="「曉曉世界 與你相慧」營隊 — 美宣、分享者" data-en="Xiaoxiao World Camp — Designer & Speaker">「曉曉世界 與你相慧」營隊 — 美宣、分享者</h3>
+                            <span class="exp-date">2024</span>
+                        </div>
+                        <div class="exp-tags">
+                            <span class="tag-sm" data-zh="#美宣能力" data-en="#Design">#美宣能力</span>
+                            <span class="tag-sm" data-zh="#隊牌製作" data-en="#Team Banner">#隊牌製作</span>
+                            <span class="tag-sm" data-zh="#口語表達" data-en="#Public Speaking">#口語表達</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="exp-item">
+                    <div class="exp-marker"></div>
+                    <div class="exp-card">
+                        <div class="exp-header">
+                            <h3 data-zh="APYLC 亞太青年領袖峰會 — 分享者" data-en="APYLC — Speaker">APYLC 亞太青年領袖峰會 — 分享者</h3>
+                            <span class="exp-date">2024</span>
+                        </div>
+                        <div class="exp-tags">
+                            <span class="tag-sm" data-zh="#英文溝通練習" data-en="#English Communication">#英文溝通練習</span>
+                            <span class="tag-sm" data-zh="#口語表達能力" data-en="#Public Speaking">#口語表達能力</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="exp-item">
+                    <div class="exp-marker"></div>
+                    <div class="exp-card">
+                        <div class="exp-header">
+                            <h3 data-zh="「還原」原住民轉型正義策展 — 策展人" data-en="Indigenous Transitional Justice Exhibition — Curator">「還原」原住民轉型正義策展 — 策展人</h3>
+                            <span class="exp-date">2023</span>
+                        </div>
+                        <div class="exp-tags">
+                            <span class="tag-sm" data-zh="#文本閱讀" data-en="#Text Analysis">#文本閱讀</span>
+                            <span class="tag-sm" data-zh="#策展經歷" data-en="#Curation">#策展經歷</span>
+                            <span class="tag-sm" data-zh="#議題研究" data-en="#Issue Research">#議題研究</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="exp-item">
+                    <div class="exp-marker"></div>
+                    <div class="exp-card">
+                        <div class="exp-header">
+                            <h3 data-zh="第一屆「瞾燾」營隊 — 隊輔" data-en="1st Zhao-Tao Camp — Counselor">第一屆「瞾燾」營隊 — 隊輔</h3>
+                            <span class="exp-date">2023</span>
+                        </div>
+                        <div class="exp-tags">
+                            <span class="tag-sm" data-zh="#跨年齡溝通" data-en="#Cross-Age Communication">#跨年齡溝通</span>
+                            <span class="tag-sm" data-zh="#挑戰自我" data-en="#Self-Challenge">#挑戰自我</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="exp-item">
+                    <div class="exp-marker"></div>
+                    <div class="exp-card">
+                        <div class="exp-header">
+                            <h3 data-zh="明道藍韹管樂社 — 社員" data-en="Mingdao Wind Ensemble — Member">明道藍韹管樂社 — 社員</h3>
+                            <span class="exp-date">2022 — 2024</span>
+                        </div>
+                        <div class="exp-tags">
+                            <span class="tag-sm" data-zh="#精進自我" data-en="#Self-Improvement">#精進自我</span>
+                            <span class="tag-sm" data-zh="#挫折調適" data-en="#Resilience">#挫折調適</span>
+                            <span class="tag-sm" data-zh="#社交能力" data-en="#Social Skills">#社交能力</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="exp-item highlight">
+                    <div class="exp-marker"></div>
+                    <div class="exp-card">
+                        <div class="exp-header">
+                            <h3 data-zh="第十屆 新世紀青少年高峰論壇 — 文書長" data-en="10th New Century Youth Summit — Secretary">第十屆 新世紀青少年高峰論壇 — 文書長</h3>
+                            <span class="exp-date">2022 — 2023</span>
+                        </div>
+                        <div class="exp-tags">
+                            <span class="tag-sm" data-zh="#社群媒體經營" data-en="#Social Media">#社群媒體經營</span>
+                            <span class="tag-sm" data-zh="#文件整理" data-en="#Document Management">#文件整理</span>
+                            <span class="tag-sm" data-zh="#領導能力" data-en="#Leadership">#領導能力</span>
+                            <span class="tag-sm" data-zh="#危機化解" data-en="#Crisis Management">#危機化解</span>
+                            <span class="tag-sm" data-zh="#影片拍攝" data-en="#Videography">#影片拍攝</span>
+                            <span class="tag-sm" data-zh="#剪輯" data-en="#Editing">#剪輯</span>
+                            <span class="tag-sm" data-zh="#腳本撰寫" data-en="#Scriptwriting">#腳本撰寫</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="exp-item">
+                    <div class="exp-marker"></div>
+                    <div class="exp-card">
+                        <div class="exp-header">
+                            <h3 data-zh="第九屆 新世紀青少年高峰論壇 — 參賽者" data-en="9th New Century Youth Summit — Participant">第九屆 新世紀青少年高峰論壇 — 參賽者</h3>
+                            <span class="exp-date">2021 — 2022</span>
+                        </div>
+                        <div class="exp-tags">
+                            <span class="tag-sm" data-zh="#團隊合作" data-en="#Teamwork">#團隊合作</span>
+                            <span class="tag-sm" data-zh="#溝通" data-en="#Communication">#溝通</span>
+                            <span class="tag-sm" data-zh="#計劃書書寫" data-en="#Proposal Writing">#計劃書書寫</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Awards Section -->
+    <section id="awards" class="section awards-section">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-subtitle" data-zh="競賽與表演" data-en="Awards & Performances">競賽與表演</p>
+                <h2 class="section-title" data-zh="競賽與表演" data-en="Awards & Performances">競賽與表演</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="awards-grid">
+                <div class="award-column">
+                    <h3 class="award-column-title">
+                        <i class="fas fa-trophy"></i>
+                        <span data-zh="競賽經歷" data-en="Competitions">競賽經歷</span>
+                    </h3>
+                    <div class="award-list">
+                        <div class="award-item">
+                            <div class="award-year">2023 — 2024</div>
+                            <div class="award-content">
+                                <h4 data-zh="專題研究競賽" data-en="Research Project Competition">專題研究競賽</h4>
+                                <p class="award-result" data-zh="佳作" data-en="Honorable Mention">佳作</p>
+                            </div>
+                        </div>
+                        <div class="award-item featured">
+                            <div class="award-year">2022</div>
+                            <div class="award-content">
+                                <h4 data-zh="第九屆 新世紀青少年高峰論壇" data-en="9th New Century Youth Summit">第九屆 新世紀青少年高峰論壇</h4>
+                                <p class="award-result" data-zh="圓夢獎金得主 · 最佳團隊獎" data-en="Dream Grant Recipient · Best Team Award">圓夢獎金得主 · 最佳團隊獎</p>
+                            </div>
+                        </div>
+                        <div class="award-item">
+                            <div class="award-year">2021</div>
+                            <div class="award-content">
+                                <h4 data-zh="國際運算思維挑戰賽" data-en="International Computational Thinking Challenge">國際運算思維挑戰賽</h4>
+                                <p class="award-result" data-zh="全國 PR 81" data-en="National PR 81">全國 PR 81</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="award-column">
+                    <h3 class="award-column-title">
+                        <i class="fas fa-music"></i>
+                        <span data-zh="表演經歷" data-en="Performances">表演經歷</span>
+                    </h3>
+                    <div class="award-list">
+                        <div class="award-item">
+                            <div class="award-year">2023</div>
+                            <div class="award-content">
+                                <h4 data-zh="藍色管風情音樂會" data-en="Blue Wind Symphony Concert">藍色管風情音樂會</h4>
+                                <p class="award-result" data-zh="管樂社年度公演" data-en="Annual Wind Ensemble Concert">管樂社年度公演</p>
+                            </div>
+                        </div>
+                        <div class="award-item">
+                            <div class="award-year">2022</div>
+                            <div class="award-content">
+                                <h4 data-zh="明道聖誕草地音樂會" data-en="Mingdao Christmas Lawn Concert">明道聖誕草地音樂會</h4>
+                                <p class="award-result" data-zh="校園音樂演出" data-en="Campus Music Performance">校園音樂演出</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills-section">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-subtitle" data-zh="證照與經驗" data-en="Certifications & Experience">證照與經驗</p>
+                <h2 class="section-title" data-zh="證照與相關經驗" data-en="Certifications & Experience">證照與相關經驗</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="skills-wrapper">
+                <div class="certs-box">
+                    <h3 class="box-title">
+                        <i class="fas fa-certificate"></i>
+                        <span data-zh="證照與測驗" data-en="Certifications & Tests">證照與測驗</span>
+                    </h3>
+                    <div class="cert-items">
+                        <div class="cert-card">
+                            <div class="cert-icon"><i class="fas fa-language"></i></div>
+                            <div class="cert-info">
+                                <h4>TOEIC</h4>
+                                <p data-zh="多益測驗 800 分" data-en="TOEIC Score 800">多益測驗 800 分</p>
+                            </div>
+                        </div>
+                        <div class="cert-card">
+                            <div class="cert-icon"><i class="fas fa-heartbeat"></i></div>
+                            <div class="cert-info">
+                                <h4 data-zh="CPR 急救證照" data-en="CPR Certificate">CPR 急救證照</h4>
+                                <p data-zh="心肺復甦術合格" data-en="Certified in CPR">心肺復甦術合格</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-box">
+                    <h3 class="box-title">
+                        <i class="fas fa-tools"></i>
+                        <span data-zh="相關經驗領域" data-en="Areas of Experience">相關經驗領域</span>
+                    </h3>
+                    <div class="experience-areas">
+                        <div class="exp-area">
+                            <h4 data-zh="活動策劃與執行" data-en="Event Planning & Execution">活動策劃與執行</h4>
+                            <p data-zh="新世紀青少年高峰論壇文書長、營隊隊輔、策展人。" data-en="Secretary at New Century Youth Summit Forum, camp counselor, exhibition curator.">新世紀青少年高峰論壇文書長、營隊隊輔、策展人。</p>
+                        </div>
+                        <div class="exp-area">
+                            <h4 data-zh="文書與議題研究" data-en="Writing & Issue Research">文書與議題研究</h4>
+                            <p data-zh="高中人文實驗班專題研究、原住民轉型正義策展、計劃書撰寫。" data-en="High school humanities research projects, Indigenous transitional justice exhibition, proposal writing.">高中人文實驗班專題研究、原住民轉型正義策展、計劃書撰寫。</p>
+                        </div>
+                        <div class="exp-area">
+                            <h4 data-zh="美宣與視覺設計" data-en="Visual Design">美宣與視覺設計</h4>
+                            <p data-zh="營隊隊牌製作、社群媒體貼文設計、中友會美宣。" data-en="Camp team banner design, social media post design, design work for the NTPU Central Taiwan Student Association.">營隊隊牌製作、社群媒體貼文設計、中友會美宣。</p>
+                        </div>
+                        <div class="exp-area">
+                            <h4 data-zh="影像製作" data-en="Video Production">影像製作</h4>
+                            <p data-zh="影片拍攝、剪輯與腳本撰寫(高峰論壇文書長期間)。" data-en="Videography, editing, and scriptwriting (during the role of Summit Forum Secretary).">影片拍攝、剪輯與腳本撰寫(高峰論壇文書長期間)。</p>
+                        </div>
+                        <div class="exp-area">
+                            <h4 data-zh="口語表達" data-en="Public Speaking">口語表達</h4>
+                            <p data-zh="APYLC 亞太青年領袖峰會分享者、營隊分享者。" data-en="Speaker at APYLC and various camps.">APYLC 亞太青年領袖峰會分享者、營隊分享者。</p>
+                        </div>
+                        <div class="exp-area">
+                            <h4 data-zh="英文應用" data-en="English Application">英文應用</h4>
+                            <p data-zh="多益 800 分、AIESEC 國際社團、APYLC 英文分享。" data-en="TOEIC 800, AIESEC international club, APYLC English speech.">多益 800 分、AIESEC 國際社團、APYLC 英文分享。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-subtitle" data-zh="聯絡我" data-en="Contact">聯絡我</p>
+                <h2 class="section-title" data-zh="聯絡資訊" data-en="Contact Information">聯絡資訊</h2>
+                <div class="section-divider"></div>
+                <p class="contact-intro" data-zh="如有任何相關事宜，可透過以下方式聯繫。" data-en="For any related inquiries, please feel free to reach out through the following channels.">
+                    如有任何相關事宜，可透過以下方式聯繫。
+                </p>
+            </div>
+            <div class="contact-cards">
+                <a href="mailto:etting0605@gmail.com" class="contact-card">
+                    <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                    <h4>Email</h4>
+                    <p>etting0605@gmail.com</p>
+                </a>
+                <div class="contact-card">
+                    <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                    <h4 data-zh="所在地" data-en="Location">所在地</h4>
+                    <p data-zh="新北市 · 國立臺北大學" data-en="New Taipei City · NTPU">新北市 · 國立臺北大學</p>
+                </div>
+                <a href="#" class="contact-card" onclick="return false;">
+                    <div class="contact-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <h4 data-zh="科系" data-en="Major">科系</h4>
+                    <p data-zh="會計學系" data-en="Department of Accountancy">會計學系</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-name">廖怡婷 · Yi-Ting Liao</p>
+                <p class="footer-text" data-zh="© 2026 All rights reserved. Made with ♥" data-en="© 2026 All rights reserved. Made with ♥">
+                    © 2026 All rights reserved. Made with <span class="heart">♥</span>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <a href="#home" class="back-to-top" id="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
